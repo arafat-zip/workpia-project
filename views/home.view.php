@@ -1,8 +1,10 @@
 
- <?php require basePath('views/partial/header.php') ?>
- <?php require basePath('views/partial/navbar.php') ?>
- <?php require basePath('views/partial/showcase.php') ?>
- <?php require basePath('views/partial/topbanner.php') ?>
+ <?php 
+  loadPartial('header');
+  loadPartial('navbar');
+  loadPartial('showcase');
+  loadPartial('topbanner'); 
+ ?>
 
 
 
@@ -201,5 +203,7 @@
 
      
 
-<?php require basePath('views/partial/bottombanner.php') ?>
-<?php require basePath('views/partial/footer.php') ?>
+<?php 
+ loadPartial('bottombanner');
+ loadPartial('footer') 
+ ?>
